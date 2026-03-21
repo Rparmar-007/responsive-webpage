@@ -206,7 +206,7 @@ html{
 @media only screen and (max-width:1290px) {
     .navbar{
         flex-direction: column;
-        height: 38vh;
+        height: 40vh;
         align-items: center;
         position: sticky;
         top: 0;
