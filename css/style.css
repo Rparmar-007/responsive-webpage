@@ -35,7 +35,7 @@ html{
     color: gray;
 }
 .logo{
-    padding-right: 7vh;
+    max-width:100%;
 }
 .logo img{
     width: 9vh;
