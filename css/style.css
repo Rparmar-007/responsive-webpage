@@ -36,6 +36,8 @@ html{
 }
 .logo{
     max-width:100%;
+    text-align:center;
+    
 }
 .logo img{
     width: 9vh;
