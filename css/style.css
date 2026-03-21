@@ -69,10 +69,11 @@
 .btn{
     padding: 1vh 2vh;
     width: 15vh;
-    border: 2px solid black;
-    border-radius: 10PX;
+    border-radius: 10px;
     background: none;
-    color: black;
+    color: white;
+    background:#007bff;
+    cursor: pointer;
 }
 .background{
     background: rgba(0, 0, 0, 0.8)url('../imgs/do.jpg');
@@ -108,16 +109,14 @@
 .second{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding:50px 20px;
     margin: 1vh;
 }
 .second-right{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding:50px 20px;
     margin: 5vh;
 }
 .paras{
