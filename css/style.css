@@ -21,6 +21,7 @@ html{
 }
 .navlist ul{
     display: flex;
+    width: 60%;
 }
 .navlist li{
     list-style: none;
@@ -46,6 +47,7 @@ html{
     border-radius: 30vh;   
 }
 .rightnav{
+    
     display: flex;
     justify-content: center;
     width:40%;
@@ -80,6 +82,9 @@ html{
     background:#007bff;
     cursor: pointer;
 }
+.first-sec{
+    width: 100%;
+}
 .background{
     background: rgba(0, 0, 0, 0.8)url('../imgs/do.jpg');
     background-size: cover;
@@ -91,7 +96,7 @@ html{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 .fhalf{
     width: 70%;
@@ -104,7 +109,7 @@ html{
 .shalf{
     width: 30%;
     padding-top: 10vh; 
-    text-align: center;
+    text-align: left;
 }
 .shalf img{
     border-radius: 2vh;
@@ -203,10 +208,10 @@ html{
     margin: 3px 3px;
 }
 
-@media only screen and (max-width:1290px) {
+@media only screen and (max-width:1120px) {
     .navbar{
         flex-direction: column;
-        height: 45vh;
+        height: 49vh;
         align-items: center;
         position: sticky;
         top: 0;
@@ -218,8 +223,8 @@ html{
         justify-content: center;
     }
     .logo img{
-        width: 5vh;
-        height: 5vh;
+        width: 7vh;
+        height: 7vh;
         border: 2px;
         border-radius: 20vh;
     }
